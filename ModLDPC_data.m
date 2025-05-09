@@ -1,4 +1,3 @@
-function [ BER_post ] = ModLDPC_data(r,blocklength)
 % Discription:
 % 
 % 
@@ -11,6 +10,7 @@ function [ BER_post ] = ModLDPC_data(r,blocklength)
 % 
 % Leo Lu
 % May 2025
+function [ BER_post ] = ModLDPC_data(r,blocklength)
 
 dataModulation = '4D64';            % 4D64
 demapMethod = 'CG4D';               % iddG4D   CG4D  CG4D_oneCov  iidG4D   NN   NNMixCG4D  NNMixCG4D6mode

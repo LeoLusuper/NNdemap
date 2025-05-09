@@ -1,5 +1,15 @@
-% Wenkai Fang
-% July 2023
+% Discription:
+% 
+% 
+% Inputs:
+% r             : code rate of LDPC(number of input codewords/total number of codewords)
+% blocklength   : block length of LDPC
+% 
+% Outputs:
+% BER_post      : 
+% 
+% Leo Lu
+% May 2025
 clc;clear;close;
 addpath(genpath('./functions/'));
 warning off;
